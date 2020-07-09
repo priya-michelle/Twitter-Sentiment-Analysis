@@ -11,7 +11,6 @@ def get_search_rule(query_term='', since='2019-07-24', count=100, lang='en', res
     return rule
 
 
-# test comment please remove
 if __name__ == '__main__':
     # expects a yaml file at ~/.twitter_keys.yaml
     premium_search_args = load_credentials("~/.twitter_keys.yaml", yaml_key="search_tweets_premium")
