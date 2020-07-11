@@ -33,14 +33,16 @@ more-itertools==8.4.0     # via pytest
 mpld3==0.3                # via flair
 networkx==2.4             # via hyperopt
 nltk==3.5                 # via -r requirements.in
-numpy==1.19.0             # via bpemb, gensim, hyperopt, matplotlib, scikit-learn, scipy, torch, transformers
+numpy==1.19.0             # via bpemb, gensim, hyperopt, matplotlib, pandas, scikit-learn, scipy, torch, transformers
 packaging==20.4           # via pytest, transformers
+pandas==1.0.5             # via -r requirements.in
 pip-tools==5.2.1          # via -r requirements.in
 pluggy==0.13.1            # via pytest
 py==1.9.0                 # via pytest
 pyparsing==2.4.7          # via matplotlib, packaging
 pytest==5.4.3             # via -r requirements.in, flair
-python-dateutil==2.8.1    # via botocore, flair, matplotlib
+python-dateutil==2.8.1    # via botocore, flair, matplotlib, pandas
+pytz==2020.1              # via pandas
 regex==2020.6.8           # via flair, nltk, sacremoses, segtok, transformers
 requests==2.24.0          # via bpemb, smart-open, transformers
 s3transfer==0.3.3         # via boto3

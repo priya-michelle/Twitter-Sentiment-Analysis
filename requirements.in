@@ -2,3 +2,4 @@ pytest
 flair
 nltk
 pip-tools
+pandas
