@@ -1,0 +1,4 @@
+pytest
+flair
+nltk
+pip-tools
